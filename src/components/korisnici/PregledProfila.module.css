@@ -1,0 +1,45 @@
+.profil {
+  width: 35%;
+  padding: 5px;
+  border: 1px solid;
+}
+
+.profil h3 {
+  margin-bottom: 15px;
+}
+.profil label,
+.button {
+  display: block;
+  margin: 5px 0px;
+}
+
+.profil .name,
+.password {
+  margin: 10px 0px;
+}
+
+.profil .name {
+  margin-top: 20px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+
+.profil .button {
+  width: 120px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+}
+
+.profil .button:hover {
+  color: white;
+  background-color: rgb(250, 97, 97);
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-style: italic;
+}

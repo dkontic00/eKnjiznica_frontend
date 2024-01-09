@@ -1,0 +1,74 @@
+.tablica-knjige {
+  width: 600px;
+  border-spacing: 0;
+}
+
+.tablica td {
+  background-color: rgb(248, 247, 246);
+  border: 1px solid;
+  border-color: rgb(248, 247, 246);
+  border-radius: 5px;
+}
+
+.tablica-knjige td {
+  height: 50px;
+  background-color: rgb(248, 247, 246);
+  border: 1px solid;
+  border-color: rgb(248, 247, 246);
+  border-radius: 5px;
+}
+
+.prvi-redak-naslov {
+  width: 600px;
+  height: 35px;
+  background-color: rgb(35, 35, 36);
+  color: white;
+}
+
+.prvi-redak {
+  width: fit-content;
+  height: 35px;
+  font-style: italic;
+  background-color: rgb(35, 35, 36);
+  color: white;
+}
+
+.prvi-redak th {
+  margin: 0;
+}
+
+.redak-button {
+  text-align: center;
+  margin: 5px;
+  padding-bottom: 15px;
+}
+
+.redak-podaci:hover td {
+  background-color: white;
+}
+
+.redak-podaci-knjiznicar:hover td {
+  cursor: pointer;
+  background-color: white;
+}
+
+.kolicina {
+  text-align: center;
+}
+
+.datum {
+  text-align: center;
+}
+
+.opis-knjige {
+  width: fit-content;
+  border: 2px solid black;
+  margin: 15px;
+  padding: 15px;
+}
+
+.error {
+  text-align: center;
+  font-style: italic;
+  color: red;
+}

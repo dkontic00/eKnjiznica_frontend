@@ -1,0 +1,42 @@
+.podaci-zaduzenih {
+  margin: 20px;
+  text-align: left;
+}
+
+.tablica {
+  margin-top: 15px;
+  width: 500px;
+  border-spacing: 0;
+}
+
+.tablica td {
+  background-color: rgb(248, 247, 246);
+  border: 1px solid;
+  border-color: rgb(248, 247, 246);
+  border-radius: 5px;
+}
+
+.prvi-redak {
+  font-style: italic;
+  height: 30px;
+  background-color: rgb(35, 35, 36);
+  color: white;
+}
+
+.prvi-redak th {
+  margin: 0;
+}
+
+.datumi {
+  text-align: center;
+}
+
+.redak-podaci:hover td {
+  background-color: white;
+}
+
+.error {
+  font-style: italic;
+  color: red;
+  text-align: center;
+}

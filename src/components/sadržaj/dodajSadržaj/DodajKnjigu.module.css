@@ -1,0 +1,58 @@
+.dodaj-knjigu {
+  margin: 20px;
+  border: 1px none;
+  background-color: rgb(246, 248, 250);
+  padding: 20px;
+  width: fit-content;
+}
+
+.dodaj-knjigu h4 {
+  margin-bottom: 10px;
+}
+
+.dodaj-knjigu .label {
+  font-size: 15px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.dodaj-knjigu .input {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.dodaj-knjigu .select {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.dodaj-knjigu button {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 50px;
+  height: 25px;
+  color: black;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.dodaj-knjigu .dodaj {
+  background-color: rgb(3, 3, 99);
+  color: white;
+}
+.dodaj-knjigu .dodaj:hover {
+  background-color: rgb(189, 189, 250);
+  color: black;
+}
+
+.dodaj-knjigu button:hover {
+  color: white;
+  background-color: rgb(248, 67, 67);
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-style: italic;
+}

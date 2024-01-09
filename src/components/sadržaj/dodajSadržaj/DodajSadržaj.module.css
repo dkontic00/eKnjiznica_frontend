@@ -1,0 +1,40 @@
+.dodavanje-sadrzaja {
+  border: 1px solid;
+  width: fit-content;
+  margin: 20px;
+  padding: 10px;
+}
+
+.dodavanje-sadrzaja input {
+  margin-left: 5px;
+}
+
+.dodavanje-sadrzaja button {
+  margin-left: 10px;
+  width: 50px;
+  height: 25px;
+  color: black;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.dodavanje-sadrzaja .dodaj {
+  background-color: rgb(3, 3, 99);
+  color: white;
+}
+.dodavanje-sadrzaja .dodaj:hover {
+  background-color: rgb(189, 189, 250);
+  color: black;
+}
+
+.dodavanje-sadrzaja button:hover {
+  color: white;
+  background-color: rgb(248, 67, 67);
+}
+
+.error {
+  text-align: center;
+  font-style: italic;
+  color: red;
+}

@@ -1,0 +1,43 @@
+.navBar {
+  margin: auto;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  background-color: #097280;
+}
+
+.navBar h1 {
+  color: wheat;
+  margin: 0px 10px 10px;
+  font-size: 3.5em;
+  font-style: italic;
+}
+
+.navBar button {
+  display: inline;
+  margin-left: 5px;
+  padding: 5px;
+  border-color: #053e46;
+  background: #097280;
+  border-radius: 12px;
+  color: white;
+}
+
+.navBar button:hover {
+  border-color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}

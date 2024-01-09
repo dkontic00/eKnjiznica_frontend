@@ -1,0 +1,58 @@
+.button-vracene {
+  margin-top: 10px;
+}
+
+.button-vracene button {
+  color: black;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.button-vracene button:hover {
+  color: white;
+  background-color: rgb(252, 102, 102);
+}
+
+.podaci-zaduzenih {
+  margin: 20px;
+  text-align: left;
+}
+
+.tablica {
+  margin-top: 15px;
+  width: 950px;
+  border-spacing: 0;
+}
+
+.tablica td {
+  background-color: rgb(248, 247, 246);
+  border: 1px solid;
+  border-color: rgb(248, 247, 246);
+  border-radius: 5px;
+}
+
+.prvi-redak {
+  font-style: italic;
+  height: 30px;
+  background-color: rgb(35, 35, 36);
+  color: white;
+}
+
+.prvi-redak th {
+  margin: 0;
+}
+
+.datumi {
+  text-align: center;
+}
+
+.redak-podaci:hover td {
+  background-color: white;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-style: italic;
+}

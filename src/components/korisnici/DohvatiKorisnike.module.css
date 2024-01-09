@@ -1,0 +1,104 @@
+.korisnici {
+  width: 25%;
+  height: fit-content;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  background-color: #f7f6f6;
+  padding: 10px;
+}
+
+.labele_opisa {
+  text-decoration: underline;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#korisnicko_ime {
+  text-indent: 2%;
+  font-size: 20px;
+}
+
+.podaci {
+  margin: 10px;
+}
+
+.aktivacija-button {
+  border: 1px solid;
+  width: 90px;
+  height: 35px;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+}
+
+.aktivacija-button:hover {
+  background-color: rgb(250, 75, 75);
+  color: white;
+}
+
+.tablica {
+  margin-top: 15px;
+  width: 500px;
+  border-spacing: 0;
+}
+
+.tablica-admin {
+  margin-top: 15px;
+  width: 950px;
+  border-spacing: 0;
+}
+
+.tablica td {
+  background-color: rgb(248, 247, 246);
+  border: 1px solid;
+  border-color: rgb(248, 247, 246);
+  border-radius: 5px;
+  height: 40px;
+}
+
+.tablica-admin td {
+  background-color: rgb(236, 236, 235);
+  border: 1px solid;
+  height: 40px;
+  border-color: rgb(236, 236, 235);
+  border-radius: 5px;
+}
+
+.prvi-redak {
+  font-style: italic;
+  height: 30px;
+  background-color: rgb(35, 35, 36);
+  color: white;
+}
+
+.prvi-redak th {
+  margin: 0;
+}
+
+.datum {
+  text-align: center;
+}
+
+.redak-podaci:hover td {
+  background-color: white;
+}
+
+.redak-podaci-knjiznicar:hover td {
+  cursor: pointer;
+  background-color: white;
+}
+
+.celija-button {
+  text-align: center;
+}
+
+.celija-select {
+  text-align: center;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-style: italic;
+}

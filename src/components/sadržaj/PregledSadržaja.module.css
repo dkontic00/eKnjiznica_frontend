@@ -1,0 +1,95 @@
+.sadrzaj-label {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.sadrzaj-pregled-button {
+  margin-top: 15px;
+  margin-right: 5px;
+  height: 20px;
+  width: 50px;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.sadrzaj-pregled-button:hover {
+  background-color: rgb(250, 76, 76);
+  color: white;
+}
+
+.dodavanje-button {
+  margin-bottom: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  height: 25px;
+  width: 50px;
+  background-color: white;
+  color: black;
+}
+
+.dodavanje-button:hover {
+  background-color: red;
+  color: white;
+}
+
+.tablica {
+  width: 350px;
+  border-spacing: 0;
+}
+
+.tablica-knjige {
+  width: 500px;
+  border-spacing: 0;
+}
+
+.tablica td {
+  background-color: rgb(248, 247, 246);
+  border: 1px solid;
+  border-color: rgb(248, 247, 246);
+  border-radius: 5px;
+}
+
+.tablica-knjige td {
+  height: 50px;
+  background-color: rgb(248, 247, 246);
+  border: 1px solid;
+  border-color: rgb(248, 247, 246);
+  border-radius: 5px;
+}
+
+.prvi-redak {
+  font-style: italic;
+  background-color: rgb(35, 35, 36);
+  color: white;
+}
+
+.prvi-redak th {
+  margin: 0;
+}
+
+.redak-button {
+  text-align: center;
+  margin: 5px;
+  padding-bottom: 15px;
+}
+
+.redak-podaci:hover td {
+  background-color: white;
+}
+
+.redak-podaci-knjiznicar:hover td {
+  cursor: pointer;
+  background-color: white;
+}
+
+.kolicina {
+  text-align: center;
+}
+
+.error {
+  text-align: center;
+  font-style: italic;
+  color: red;
+}

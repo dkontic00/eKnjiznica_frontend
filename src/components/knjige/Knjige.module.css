@@ -1,0 +1,155 @@
+/*.sadrzaj {
+  background-color: #f7f6f6;
+}
+
+.sadrzaj input {
+  margin: 10px;
+}
+
+.sadrzaj table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  width: 100%;
+}
+
+.sadrzaj tr {
+  background-color: white;
+  text-align: center;
+}
+
+.sadrzaj th,
+td {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 30px;
+}*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.body {
+  width: 100%;
+  /*height: auto;*/
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.knjiga {
+  width: 200px;
+  height: fit-content;
+  border-radius: 5px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4c1cf8;
+  margin: 10px 20px;
+  padding: 10px;
+}
+
+.naslov {
+  color: rgba(243, 114, 9, 0.795);
+  font-size: 20px;
+  text-align: center;
+  border-bottom: double #4c1cf8;
+}
+
+.opis {
+  margin-top: 10px;
+}
+
+.opis p {
+  margin: 10px 0px;
+  padding: 5px;
+  font-size: 16px;
+  font-family: Garamond;
+}
+
+.button {
+  text-align: center;
+}
+
+.button button {
+  border-radius: 10px;
+  width: 100px;
+  height: 35px;
+  color: white;
+  background-color: rgb(248, 74, 74);
+}
+
+.button button:hover {
+  border-color: white;
+  background-color: red;
+}
+
+.knjiznicar {
+  width: 150px;
+  height: fit-content;
+  border-radius: 5px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4c1cf8;
+  margin: 10px 50px;
+  padding: 10px;
+}
+
+.admin {
+  width: 150px;
+  height: fit-content;
+  border-radius: 5px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4c1cf8;
+  margin: 10px 50px;
+  padding: 10px;
+}
+
+.trazilica {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.trazilica button {
+  width: 35px;
+  height: 28px;
+  margin-left: 2px;
+  font-style: 18px;
+}
+
+.trazilica input,
+select {
+  margin: 0px 2px;
+  height: 28px;
+  font-size: 15px;
+}
+
+.nepostojeci p {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.nedostupna {
+  font-style: italic;
+  color: red;
+}
+
+.knjige-label {
+  font-style: italic;
+}
+
+.error {
+  font-size: larger;
+  text-align: center;
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}

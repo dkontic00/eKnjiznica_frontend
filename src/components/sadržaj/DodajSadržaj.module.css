@@ -1,0 +1,21 @@
+.sadrzaj h4 {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.sadrzaj button {
+  margin: 5px;
+  color: white;
+  background-color: rgb(108, 108, 119);
+  text-align: center;
+  width: 150px;
+  height: 25px;
+  border-radius: 2px;
+}
+
+.sadrzaj button:hover {
+    background-color: rgb(247, 234, 234);
+    color: rgb(15, 15, 15);
+}

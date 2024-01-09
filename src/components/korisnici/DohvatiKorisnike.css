@@ -1,0 +1,28 @@
+.korisnici {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  background-color: #f7f6f6;
+  width: 25%;
+}
+
+.labele_opisa {
+  text-decoration: underline;
+}
+
+#korisnicko_ime {
+  text-indent: 2%;
+  font-size: 20px;
+}
+
+.aktivacija-button {
+  margin-top: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+}
+
+.aktivacija-button:hover {
+  background-color: rgb(250, 75, 75);
+  color: white;
+}
